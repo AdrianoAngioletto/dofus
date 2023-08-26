@@ -5,24 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dofus Kamas</title>
     <link rel="stylesheet" href="../test/View/style.css">
+    
 </head>
 
 <body>
 
 
+<script defer src="./View/js/index.js">  </script>
+
 <div class="menu-login">
 
 <h1> Cadastro </h1>
+
 <form action="" method="post"/>
 
 <label> &nbsp;  Email: </label>
-<input type="email" required name="email" value="digite email"/> 
+<input type="email" required name="email" id="email" value="digite email"/> 
 
 <label> &nbsp; Senha:</label>
 <input type="password" required name="senha"  />
 
 <br>
-<input type="submit" name="submit" value="Cadastrar"/>
+<input type="submit" name="submit" value="cadastar"/>
 
 </div>
 
@@ -41,6 +45,14 @@ $insere->InsereDados();
 }
 ?>
 
+
+
+<footer> 
+<p> Criado por <a href="https://www.linkedin.com/in/adrianoangioletto/"> Adriano Angioletto</a> </p>
+
+
+
+</footer>
 
 
     

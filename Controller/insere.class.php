@@ -32,24 +32,53 @@ $sql = "INSERT INTO registros (email, senha) VALUES (:email, :senha)";
 
 $blinda = $pdo->prepare($sql);
 
-$blinda->bindParam(':email', $email);
 
-$blinda->bindParam(':senha', $senha);
+try {
+    
+if ($blinda->execute([
+    ':senha' => $senha,
+    ':email' => $email,
 
-if($blinda->execute()){
+])) {
+    echo '<script> alert("dados inseridos com sucesso") </script>';
+    $blinda ==null;
 
-echo '<script>  alert("conta cadastrada com sucesso") </script>';
+} else {
+    echo '<script> alert("erro ao inserir") </script>';
+}
 
 
-;}else{
+} catch (PDOException $e) {
 
-    echo '<script>  alert("Erro ao cadastrar") </script>';
+    if ($e->getCode() === '23000') {
+        echo '<script>alert("Erro: Email já cadastrado.");</script>';
+    } else {
+        echo '<script>alert("Erro desconhecido: ' . $e->getMessage() . '");</script>';
+    }
+    
+}
+
+
+
+
+
+
 
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -64,7 +93,3 @@ echo '<script>  alert("conta cadastrada com sucesso") </script>';
 
 
 
-
-
-
-}

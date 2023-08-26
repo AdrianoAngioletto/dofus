@@ -11,8 +11,23 @@ background: url("https://i.kym-cdn.com/photos/images/original/000/947/002/6e3.gi
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
+margin: 0; /* Remova as margens para garantir que não haja espaço extra */
+padding: 0;
 }
 
+p{
+
+font-family: brush;
+
+}
+
+a{
+
+
+text-decoration: none;
+color: yellow;
+
+}
 
 .menu-login{
 
@@ -54,9 +69,18 @@ border-radius: 10px;
 
 .menu-login input[type="submit"]{
 
-margin: auto;
-
-
+    background: url('../View/css/backgrounds/botão.png');
+    background-size: cover; /* Ajuste a escala da imagem */
+    background-repeat: no-repeat;
+    background-position: center; /* Centraliza a imagem no botão */
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-indent: -9999px;
 }
 
 
@@ -70,4 +94,19 @@ font-family: brush;
 
 
 
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer img {
+    max-width: 100px; /* Ajuste o tamanho máximo da imagem do rodapé */
 }
