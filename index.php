@@ -12,6 +12,7 @@
 
 <div class="menu-login">
 
+<h1> Cadastro </h1>
 <form action="" method="post"/>
 
 <label> &nbsp;  Email: </label>
@@ -21,7 +22,7 @@
 <input type="password" required name="senha"  />
 
 <br>
-<input type="submit" name="submit" value="login"/>
+<input type="submit" name="submit" value="Cadastrar"/>
 
 </div>
 

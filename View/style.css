@@ -16,16 +16,24 @@ background-attachment: fixed;
 
 .menu-login{
 
-background-color: transparent;
+background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo transparente */
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 position: relative;
 display: flex;
 flex-direction: column;
 align-items: center; 
-width: 400px;
+width: 280px;
 border-radius: 15px;
 height: 300px;
 margin: auto;
 top: 140px;
+
+}
+
+.menu-login h1{
+
+font-family: brush;
+color: white;
 
 }
 
