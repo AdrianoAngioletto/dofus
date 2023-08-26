@@ -5,13 +5,13 @@
 
 body{
 
-/* background: url("./css/backgrounds/dofus.jpg") 40% 70%; */
+
 
 background: url("https://i.kym-cdn.com/photos/images/original/000/947/002/6e3.gif");
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
-margin: 0; /* Remova as margens para garantir que não haja espaço extra */
+margin: 0; 
 padding: 0;
 }
 
@@ -29,9 +29,12 @@ color: yellow;
 
 }
 
+
+
+
 .menu-login{
 
-background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo transparente */
+background-color: rgba(0, 0, 0, 0.5); 
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 position: relative;
 display: flex;
@@ -70,9 +73,9 @@ border-radius: 10px;
 .menu-login input[type="submit"]{
 
     background: url('../View/css/backgrounds/botão.png');
-    background-size: cover; /* Ajuste a escala da imagem */
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-position: center; /* Centraliza a imagem no botão */
+    background-position: center; 
     padding: 10px 20px;
     width: 200px;
     border-radius: 15px;
@@ -97,8 +100,8 @@ font-family: brush;
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 15px;
     position: fixed;
@@ -108,5 +111,6 @@ footer {
 }
 
 footer img {
-    max-width: 100px; /* Ajuste o tamanho máximo da imagem do rodapé */
+    max-width: 100px; 
 }
+
