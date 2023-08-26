@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'brush';
+    src: url(./fonts/brush.ttf);
+}
+
+body{
+
+/* background: url("./css/backgrounds/dofus.jpg") 40% 70%; */
+
+background: url("https://i.kym-cdn.com/photos/images/original/000/947/002/6e3.gif");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+
+.menu-login{
+
+background-color: transparent;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center; 
+width: 400px;
+border-radius: 15px;
+height: 300px;
+margin: auto;
+top: 140px;
+
+}
+
+.menu-login input{
+
+display: block;
+
+font-family: brush;
+
+margin-bottom: 10px;
+
+border-radius: 10px;
+
+
+
+
+}
+
+.menu-login input[type="submit"]{
+
+margin: auto;
+
+
+}
+
+
+.menu-login label{
+
+color: white;
+
+font-family: brush;
+
+
+
+
+
+}
