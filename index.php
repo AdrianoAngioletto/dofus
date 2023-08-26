@@ -6,17 +6,38 @@
     <title>Dofus Kamas</title>
     <link rel="stylesheet" href="../test/View/style.css">
     <link rel="shortcut icon" href="../test/View/css/backgrounds/dofus_icone.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> 
+<style>
+
+@media (max-width: 768px) {
+    /* Área dos celulares mlk doido */
+
+    body { 
+    background: url("https://i.kym-cdn.com/photos/images/original/000/947/002/6e3.gif") 50% 70%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; 
+    padding: 0; 
+ }
+
+    footer img{
+
+    width: 75%;
+
+
+    }
+}
+
+
+
+</style>
 </head>
 
 <body>
 
-
-<script defer src="./View/js/index.js">  </script>
-
-
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav  class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <img src="../test/View/css/backgrounds/kamas.png" width="50"/>
     <a class="navbar-brand" style="font-family: brush; " href="#">Dofus Kamas</a>
@@ -50,16 +71,6 @@
     </div>
   </div>
 </nav>
-
-
-
-
-
-
-
-
-</nav>
-
 
 
 <div class="menu-login">
@@ -98,7 +109,10 @@ $insere->InsereDados();
 
 
 
-<footer> 
+<footer>
+<figcaption>
+<img src="../test/View/css/backgrounds/cartao.png"/>
+</figcaption>
 <p> Desenvolvido por <a style="text-decoration: none" href="https://www.linkedin.com/in/adrianoangioletto/"> Adriano Angioletto</a> </p>
 
 
